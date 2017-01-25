@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #2A4F6E;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.Loading1{
+	position: absolute;
+	background: black;
+	width: 40px;
+	height: 40px;
+	margin-left: 45%;
+	margin-top: 22%;
+	border-radius: 100%;
+	animation-name: animation1;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+@keyframes animation1{
+	0% {
+		transform: rotateX(360deg);
+	}
+	80%{
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	90%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+.Loading2{
+	position: absolute;
+	background: white;
+	width: 20px;
+	height: 20px;
+	margin-left: 45.7%;
+	margin-top: 22.7%;
+	border-radius: 100%;
+	animation-name: animation2;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+@keyframes animation2{
+	0% {
+		transform: rotateY(360deg);
+	}
+		80%{
+		transform: rotateX(0deg);
+		opacity: 1;
+	}
+	90%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+.LoadingScreen{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #3F3075;
+	animation-name: loadingscreen;
+	animation-duration: .5s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+
+}
+
+@keyframes loadingscreen{
+	0%{
+		transform: translateY(0%);
+	}
+
+	50%{
+		transform: translateX(0%);
+	}
+	100%{
+		transform: translateX(-110%);
+	}
+}
+
+
+.modalbox{
+	position: absolute;
+	top: -90%;
+	left: 2.5%;
+	margin-right: 2.5%;
+	height: 90%;
+	width: 90%;
+	background-color: black;
+	animation-name: modalbox;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+}
+
+.Opnbtn{
+	position: absolute;
+	margin-left: 43%;
+	margin-right: 43%;
+	margin-top: 2%;
+  	font-family: Arial;
+  	font-size: 16px;
+  	height: 30px;
+  	width: 85px;
+  	text-align: center;
+  	cursor: pointer;
+}
+
+.Opnbtn:hover{
+	animation-name: opnbtn;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+/* open button animation */
+@keyframes opnbtn{
+	from{
+
+	}
+	to{
+
+	}
+
+}
